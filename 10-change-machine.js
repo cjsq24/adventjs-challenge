@@ -35,4 +35,4 @@ const getCoins = (change) => {
   return changeCoins;
 };
 
-console.log(getCoins(102112));
+console.log(getCoins(51));
