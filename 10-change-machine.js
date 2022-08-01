@@ -23,7 +23,7 @@
 
 const getCoins = (change) => {
   coins = [1, 2, 5, 10, 20, 50];
-  let changeCoins = Array(6).fill(0);
+  const changeCoins = Array(6).fill(0);
   for (let i = coins.length - 1; i >= 0; i--) {
     if (change === 0) break;
     if (coins[i] <= change) {
